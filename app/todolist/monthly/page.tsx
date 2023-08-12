@@ -1,11 +1,14 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const page = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <Link href="/todolist/monthly">
+        <a>Monthly</a>
+      </Link>
+    </div>
+  );
 };
 
 export default page;
